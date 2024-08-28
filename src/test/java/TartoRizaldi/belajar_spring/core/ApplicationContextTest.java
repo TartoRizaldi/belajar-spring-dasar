@@ -11,8 +11,9 @@ public class ApplicationContextTest {
     }
 
     void testApplicationContext(){
-
+// Membuat konteks aplikasi dengan konfigurasi yang diberikan
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(HelloWordConfigurasion.class);
+// Memastikan bahwa konteks tidak null
         Assertions.assertNotNull(context);
     }
 }
