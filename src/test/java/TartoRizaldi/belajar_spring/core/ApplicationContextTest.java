@@ -10,9 +10,9 @@ public class ApplicationContextTest {
     public ApplicationContextTest(Class<HelloWordConfigurasion> helloWordConfigurasionClass) {
     }
 
-    void ApplicationContextTest(){
+    void testApplicationContext(){
 
-        ApplicationContextTest context = new ApplicationContextTest(HelloWordConfigurasion.class);
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(HelloWordConfigurasion.class);
         Assertions.assertNotNull(context);
     }
 }
