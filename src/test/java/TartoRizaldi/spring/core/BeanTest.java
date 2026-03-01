@@ -1,13 +1,8 @@
-// Import class test dan konfigurasi Spring
-import TartoRizaldi.spring.core.ApplicationContextTest;
-import TartoRizaldi.spring.core.BeanConfiguration;
-import TartoRizaldi.spring.core.data.Foo;
+package TartoRizaldi.spring.core;// Import class test dan konfigurasi Spring
 
-// Import library JUnit untuk testing
+import TartoRizaldi.spring.core.data.Foo;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-// Import Spring ApplicationContext
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
