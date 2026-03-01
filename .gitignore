@@ -1,0 +1,15 @@
+# Maven
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS Mac
+.DS_Store
+
+# Logs
+*.log
+
+# Java build
+*.class
